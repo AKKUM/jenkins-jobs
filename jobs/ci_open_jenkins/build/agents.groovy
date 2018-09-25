@@ -52,14 +52,6 @@ new SbtMicroserviceJobBuilder('agent-fi-relationship').
         withSCoverage().
         build(this as DslFactory)
 
-
-new SbtMicroserviceJobBuilder('agent-epaye-registration').
-        withSCoverage().
-        build(this as DslFactory)
-new SbtFrontendJobBuilder('agent-epaye-registration-frontend').
-        withSCoverage().
-        build(this as DslFactory)
-
 new SbtMicroserviceJobBuilder('agent-assurance').
         withSCoverage().
         build(this as DslFactory)
